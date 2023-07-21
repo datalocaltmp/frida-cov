@@ -4,7 +4,7 @@ TODO: Write proper README.
 
 ![coverage_path](https://raw.githubusercontent.com/datalocaltmp/frida-cov/main/assets/coverage_path.webp)
 
-### Frida ~~Server~~ Gadget Method
+### Usage
 
 First adb push your binary, `libgadget.so`, `libgadget.config.so`, and `frida-drcov.js` to your device; then perform the following:
 
@@ -17,5 +17,11 @@ First adb push your binary, `libgadget.so`, `libgadget.config.so`, and `frida-dr
 5) Use modified `frida-drcov.py` to convert raw data to DragonDance coverage map
 
 6) Import coverage map into Ghidra!
+
+## Example
+
+![example](https://raw.githubusercontent.com/datalocaltmp/frida-cov/main/assets/example_gadget.png)
+
+## Sequence Diagram
 
 ![sequence](https://raw.githubusercontent.com/datalocaltmp/frida-cov/main/assets/sequence.png)
