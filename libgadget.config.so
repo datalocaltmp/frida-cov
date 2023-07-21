@@ -1,0 +1,6 @@
+{
+  "interaction": {
+    "type": "script",
+    "path": "/data/local/tmp/frida-drcov.js"
+  }
+}

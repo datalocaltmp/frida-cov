@@ -10,8 +10,8 @@
  * as well as the exported function.
  * 
  */
-var whitelist = ["libwhatsapp.so"];
-var exportName = "Java_com_whatsapp_voipcalling_Voip_nativeHandleIncomingSignalingXmppAck";
+var whitelist = ["libosutils.so"];
+var exportName = "_ZN3OVR2OS7Process14getProcessNameEib";
 
 // This function takes a list of GumCompileEvents and converts it into a DRcov
 //  entry. Note that we'll get duplicated events when two traced threads
