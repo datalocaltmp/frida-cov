@@ -4,7 +4,7 @@ TODO: Write proper README.
 
 ![coverage_path](https://raw.githubusercontent.com/datalocaltmp/frida-cov/main/assets/coverage_path.webp)
 
-### Usage
+## Usage
 
 First adb push your binary, `libgadget.so`, `libgadget.config.so`, and `frida-drcov.js` to your device; then perform the following:
 
