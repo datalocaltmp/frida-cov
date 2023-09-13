@@ -1,6 +1,6 @@
 # Android Code Coverage Generation
 
-TODO: Write proper README.
+This tool allows a user to generate code coverage for a binary executed within an Android shell context.
 
 ![coverage_path](https://raw.githubusercontent.com/datalocaltmp/frida-cov/main/assets/coverage_path.webp)
 
@@ -27,8 +27,6 @@ First adb push your binary, `libgadget.so`, `libgadget.config.so`, and `frida-dr
 ![sequence](https://raw.githubusercontent.com/datalocaltmp/frida-cov/main/assets/sequence.png)
 
 ## MIT License
-
-Copyright (c) 2017-2021 Markus Gaasedelen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
