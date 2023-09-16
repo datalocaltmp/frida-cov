@@ -84,7 +84,11 @@ def create_coverage(data):
 
 def save_coverage():
     with open(infile, 'rb') as i:
-        data = json.load(i)
+        rawcov = i.readline()
+        rawcov = rawcov[:-1]
+        rawcov = rawcov + bytes(']}', 'utf-8')
+        
+        data = json.loads(rawcov)
         populate_modules(data['map'])
         populate_bbs(data['bbs'][0])
 
